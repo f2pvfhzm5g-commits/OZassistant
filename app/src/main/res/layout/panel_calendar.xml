@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dark_card"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="6dp">
+
+        <ImageButton
+            android:id="@+id/btnPrev"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/bg_dark_row"
+            android:src="@drawable/ic_arrow_left"
+            android:tint="@android:color/white"
+            android:contentDescription="Prev"/>
+
+        <TextView
+            android:id="@+id/tvMonthTitle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Январь 2026"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/bg_dark_row"
+            android:src="@drawable/ic_arrow_right"
+            android:tint="@android:color/white"
+            android:contentDescription="Next"/>
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gridDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="7"
+        android:rowCount="6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="8dp">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="ОТМЕНА"
+            android:background="@drawable/bg_dark_secondary_button"
+            android:textColor="#CCCCCC"/>
+
+        <Space android:layout_width="8dp" android:layout_height="1dp"/>
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="ОК"
+            android:background="@drawable/bg_start_button"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <!-- Light -->
+    <color name="overlay_light_card">#EEFFFFFF</color>
+    <color name="overlay_light_row">#22FFFFFF</color>
+    <color name="overlay_light_text_primary">#000000</color>
+    <color name="overlay_light_text_secondary">#66000000</color>
+
+    <!-- Dark -->
+    <color name="overlay_dark_card">#EE1E1E1E</color>
+    <color name="overlay_dark_row">#22FFFFFF</color>
+    <color name="overlay_dark_text_primary">#FFFFFF</color>
+    <color name="overlay_dark_text_secondary">#88FFFFFF</color>
+
+    <!-- Buttons -->
+    <color name="overlay_start_green">#4CAF50</color>
+    <color name="overlay_secondary_gray">#444444</color>
+
+    <color name="overlay_card_bg">#EE1E1E1E</color>
+    <color name="overlay_row_bg">#22FFFFFF</color>
+    <color name="overlay_text_primary">#FFFFFF</color>
+    <color name="overlay_text_secondary">#88FFFFFF</color>
+
+    <color name="overlay_start_green">#4CAF50</color>
+    <color name="overlay_secondary_gray">#444444</color>
+
+    <color name="overlay_text_primary">#FFFFFFFF</color>
+    <color name="overlay_text_secondary">#DDFFFFFF</color>
+    <color name="overlay_start_green">#4CAF50</color>
+    <color name="overlay_secondary_gray">#DDDDDD</color>
+
+</resources>

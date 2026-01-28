@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="overlay_card_bg">#EE1E1E1E</color>
+    <color name="overlay_row_bg">#22FFFFFF</color>
+    <color name="overlay_text_primary">#FFFFFFFF</color>
+    <color name="overlay_text_secondary">#CCFFFFFF</color>
+
+    <color name="overlay_start_green">#4CAF50</color>
+    <color name="overlay_secondary_gray">#33FFFFFF</color>
+
+</resources>

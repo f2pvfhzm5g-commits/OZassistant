@@ -1,0 +1,28 @@
+<resources>
+
+    <attr name="overlayCardBackground" format="color"/>
+    <attr name="overlayRowBackground" format="color"/>
+    <attr name="overlayTextPrimary" format="color"/>
+    <attr name="overlayTextSecondary" format="color"/>
+    <attr name="overlayStartButtonBackground" format="color"/>
+    <attr name="overlaySecondaryButtonBackground" format="color"/>
+
+    <style name="Theme.OZ.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="overlayCardBackground">@color/overlay_light_card</item>
+        <item name="overlayRowBackground">@color/overlay_light_row</item>
+        <item name="overlayTextPrimary">@color/overlay_light_text_primary</item>
+        <item name="overlayTextSecondary">@color/overlay_light_text_secondary</item>
+        <item name="overlayStartButtonBackground">@color/overlay_start_green</item>
+        <item name="overlaySecondaryButtonBackground">@color/overlay_secondary_gray</item>
+    </style>
+
+    <style name="Theme.OZ.Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="overlayCardBackground">@color/overlay_dark_card</item>
+        <item name="overlayRowBackground">@color/overlay_dark_row</item>
+        <item name="overlayTextPrimary">@color/overlay_dark_text_primary</item>
+        <item name="overlayTextSecondary">@color/overlay_dark_text_secondary</item>
+        <item name="overlayStartButtonBackground">@color/overlay_start_green</item>
+        <item name="overlaySecondaryButtonBackground">@color/overlay_secondary_gray</item>
+    </style>
+
+</resources>
